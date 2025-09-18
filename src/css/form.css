@@ -1,0 +1,74 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.feedback-form {
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  display: block;
+  text-align: left;
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #333;
+  gap: 6px;
+  padding-bottom: 16px;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  font-size: 14px;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  resize: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.feedback-form textarea {
+  height: 80px;
+}
+
+.feedback-form input:hover,
+.feedback-form textarea:hover {
+  border-color: #666;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.25);
+}
+
+.feedback-form button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  background: #4e75ff;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+}
+
+.feedback-form button:hover {
+  background: #6c8cff;
+}
